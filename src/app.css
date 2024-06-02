@@ -11,3 +11,19 @@
 * {
     @apply scroll-smooth;
 }
+
+::-webkit-scrollbar {
+    @apply w-3;
+}
+ 
+::-webkit-scrollbar-track {
+    @apply bg-zinc-900;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-brand-golden;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-brand-yellow-shadow;
+}
