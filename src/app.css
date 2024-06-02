@@ -7,3 +7,7 @@
 .icon {
     @apply w-8 h-8 transition-colors duration-300;
 }
+
+* {
+    @apply scroll-smooth;
+}

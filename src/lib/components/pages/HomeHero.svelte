@@ -26,9 +26,10 @@
 
 			<span class="text-4xl">Game/Web Developer</span>
 
-			<button
-				class="border-4 text-brand-golden border-brand-golden w-fit py-2 px-4 text-lg rounded-lg my-4"
-				>Contact Me</button
+			<a
+				href="#contact"
+				class="border-4 text-brand-golden border-brand-golden w-fit py-2 px-4 text-lg rounded-lg my-4 hover:bg-brand-golden hover:text-brand-dark-gray font-bold transition-colors duration-300"
+				>Contact Me</a
 			>
 			<!-- <img class="w-96 aspect-square" src="{Avatar}" alt="Avatar" /> -->
 		</div>
@@ -53,7 +54,7 @@
 				>
 			</a>
 
-			<a class="hover:text-white" href="https://github.com/Nemesis-AS" target="_blank">
+			<a class="hover:text-[#872792]" href="https://github.com/Nemesis-AS" target="_blank">
 				<svg
 					class="icon"
 					role="img"

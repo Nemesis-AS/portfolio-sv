@@ -71,8 +71,9 @@
 	<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 		{#each skills as skill}
 			<div
-				class="p-12 rounded-lg shadow-lg w-full aspect-square transition-colors duration-300 hover:bg-brand-yellow cursor-pointe flex flex-col gap-4 h-full bg-brand-golden-gray"
+				class="p-12 rounded-lg shadow-lg w-full aspect-square transition-all duration-300 cursor-pointer flex flex-col gap-4 h-full hover:border-brand-golden border-transparent border-2 bg-brand-golden-gray hover:backdrop-blur-3xl hover:bg-transparent hover:shadow-[0_0_50px_-15px_white] hover:shadow-brand-yellow-shadow/25" 
 			>
+                <!-- hover:bg-brand-yellow -->
 				<img class="w-full max-w-full" src={skill.img} alt="{skill.text} Logo" />
 				<div class="text-center text-2xl font-bold">{skill.text}</div>
 			</div>

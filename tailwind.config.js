@@ -11,6 +11,7 @@ export default {
 				'brand-yellow': '#f0bf6c',
 				'brand-golden-gray': '#3d3e42',
 				'brand-blue-gray': '#31333b',
+				'brand-yellow-shadow': '#a6721a'
 			},
 			fontFamily: {
 				display: ['Rubik', 'sans-serif']
