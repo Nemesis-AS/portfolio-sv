@@ -77,7 +77,7 @@
 	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
 		{#each projects as project}
 			<div
-				class="w-full aspect-video cursor-pointer bg-cover overflow-hidden group"
+				class="w-full aspect-video cursor-pointer bg-cover bg-center overflow-hidden group"
 				style="background-image: url({project.img});"
 			>
 				<div
